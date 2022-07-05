@@ -1,0 +1,67 @@
+.container{
+    border : 2px solid black;
+    width : 100%;
+    padding: 2px;
+    display: flex;
+    background-color: rgba(231, 231, 25, 0.678);
+
+    
+}
+#divBreadCrumb
+{
+        border : 2px solid black;
+        width : 100%;
+        padding: 2px;
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(231, 231, 25, 0.678);
+}
+.path{
+    background-color: gray;
+    cursor: pointer;
+    color : black;
+    padding: 5px;
+    margin: 5px;
+    border-right: 3px solid black;
+}
+.path:hover{
+    background-color: white;
+    color : blue;
+    text-decoration: underline;
+}
+.folder1 [action] :hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.folder1{
+    border-radius: 10px;
+    background-color: lightpink;
+    padding: 2px;
+    margin-left: 10px ;
+    height: 100px;
+    width: 110px;
+}
+#b1{
+    margin: 5px;
+    margin-left: 600px ;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+    padding: 10px;
+}
+#b1:hover{
+    transform: scale(1.1);
+
+}
+.folder1 [action]
+{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.folder1 [purpose= name]
+{
+    margin-top: 50px;
+}
+
